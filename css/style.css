@@ -12,7 +12,7 @@ html{
     font-size: 62.5%;
 }
 
-/* all similar content styling codes */
+/* all similar content styling */
 section{
     padding: 80px 0;
 }
@@ -263,13 +263,6 @@ section .title::after{
     box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.17), 1px 2px 2px 0px rgba(0, 0, 0, 0.1);
     transition: 0.1s;
   }
-  .skills .morph:hover, 
-  .morph:focus {
-      cursor: pointer;
-    border: 2px solid #fafafa;
-    outline:none;
-    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff, inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12), inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07), 1px 2px 3px 0px rgba(0, 0, 0, 0.1);
-  }
 
   .skills .btn-square{
     width: 100%;
@@ -283,10 +276,6 @@ section .title::after{
     color: transparent;
     background-image: linear-gradient(to right, red, blue, red, blue);
   }
-
-
-
-
 
 /* project section start */
 
@@ -346,8 +335,6 @@ section .title::after{
     background-color: #fff;
     border: 2px solid crimson;
 }
-
-
 
 /* education section start */
 
@@ -419,8 +406,6 @@ section .title::after{
     text-align: center;
     font-size: 2rem;
 }
-
-
 
 /* contact section styling */
 
@@ -525,7 +510,6 @@ section .title::after{
   background: none;
 }
 
-
 /* footer section styling */
 footer{
     font-size: 1.9rem;
@@ -541,9 +525,6 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-
-
-
 
 
 /* responsive media query start */
